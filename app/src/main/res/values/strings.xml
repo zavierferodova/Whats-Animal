@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">WhatsAnimal</string>
+    <string name="nama_binatang">Nama Binatang</string>
+    <string name="detail_binatang">Detail Binatang</string>
+    <string name="developer_name">Zavier Ferodova Al Fitroh</string>
+    <string name="nama_hewan">Nama Hewan</string>
+    <string name="klasifikasi_ilmiah">Klasifikasi Ilmiah</string>
+    <string name="kingdom">Kingdom</string>
+    <string name="filum">Filum</string>
+    <string name="familia">Familia</string>
+    <string name="ordo">Ordo</string>
+    <string name="genus">Genus</string>
+    <string name="spesies">Spesies</string>
+    <string name="deskripsi_binatang">Deskripsi Binatang</string>
+    <string name="content_detail">Content Detail</string>
+</resources>

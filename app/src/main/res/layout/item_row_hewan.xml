@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="6dp"
+    android:layout_marginBottom="10dp"
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/item_photos"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="8dp"
+        tools:color="@android:color/holo_blue_light" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/item_photos"
+        android:layout_toRightOf="@id/item_photos"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="8dp"
+        >
+
+        <TextView
+            android:id="@+id/item_nama_hewan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="8dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorBoldText"
+            tools:text="@string/nama_binatang" />
+
+        <TextView
+            android:id="@+id/item_detail_hewan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            tools:text="@string/detail_binatang"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_toEndOf="@id/item_photos"
+            android:layout_toRightOf="@id/item_photos"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="8dp"
+            android:orientation="vertical"
+            android:background="#CCCCCC"/>
+    </LinearLayout>
+</RelativeLayout>
